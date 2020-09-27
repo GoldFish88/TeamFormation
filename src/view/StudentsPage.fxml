@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<BorderPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <TextFlow prefHeight="72.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Students">
+               <padding>
+                  <Insets bottom="34.0" left="15.0" right="15.0" top="34.0" />
+               </padding>
+               <font>
+                  <Font name="Noto Mono" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </TextFlow>
+   </top>
+   <center>
+      <TableView fx:id="studentsTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="136.6666717529297" text="Id" />
+          <TableColumn fx:id="grades" prefWidth="381.3333435058594" text="Grades">
+               <columns>
+                  <TableColumn fx:id="A" prefWidth="75.0" text="A" />
+                  <TableColumn fx:id="N" prefWidth="75.0" text="N" />
+                  <TableColumn fx:id="P" prefWidth="75.0" text="P" />
+                  <TableColumn fx:id="W" prefWidth="75.0" text="W" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="personality" prefWidth="153.3333740234375" text="Personality" />
+            <TableColumn fx:id="conflict" minWidth="0.0" prefWidth="163.33331298828125" text="Conflict">
+               <columns>
+                  <TableColumn fx:id="conflict1" prefWidth="75.0" text="1" />
+                  <TableColumn fx:id="conflict2" prefWidth="75.0" text="2" />
+               </columns>
+            </TableColumn>
+            <TableColumn fx:id="preferences" prefWidth="458.0" text="Preferences">
+               <columns>
+                  <TableColumn fx:id="pref1" prefWidth="114.0" text="1" />
+                  <TableColumn fx:id="pref2" prefWidth="114.0" text="2" />
+                  <TableColumn fx:id="pref3" prefWidth="114.0" text="3" />
+                  <TableColumn fx:id="pref4" prefWidth="114.0" text="4" />
+               </columns>
+            </TableColumn>
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>

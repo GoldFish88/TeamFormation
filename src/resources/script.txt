@@ -1,0 +1,42 @@
+Demo:
+ - Two main views: Adjust teams and form teams
+ - In adjust teams, we have the graphs showing the distribution of skills gap, grades and preference across the different teams.
+ - This is also where you can swap student between teams. do demo
+ - validate data
+ - YOu can also compare 2 students using in this area.
+ - show invalid swap.
+ - show valid swap.
+ - show responsive GUI
+
+ - For my program I'm following an MPV design pattern.
+
+Model
+
+ - Model Classes from previous milestones
+ - Primary model stream lined version of data handler
+ - Singleton design pattern
+ - Data in collections in Primary model
+ - The primary model handles the preparation of the data to be presented on the view and also the validation of newly inserted data.
+ - Show method that prepares data for graphs.
+ - show method to compute standard deviation
+ - Discuss swapping.
+
+Controller
+ - Multiple views, and I have 1 controller to handle each view.
+ - Most of the controllers are for the dialog boxes, I will just focus on the metricspagecontroller
+ - This controller is responsible for handling events in the adjust teams page.
+ - Show update table and update graph methods
+ - show swap method
+
+JDBC:
+ - all methods are in primary model
+ - Discuss url, jdbc:name of database, in this case sqlite, path + db file name
+ - st.execute and st.execute update
+ - create connection, create statment object the go through queries
+
+ - Demo export and show swapped students.
+
+Show student and projects and members
+
+overall lesson: javafx slightly difficult to setup but once I've set it up, the logic are fairly easy to understand. Scenebuilder makes it faster to create better looking GUI.
+

@@ -1,0 +1,108 @@
+
+Text files:
+  
+  1. companies.txt
+  	 - contains the list of companies
+  	 - <company_id (id)>, <company_name>, <ABN_no>, <company_URL>, <address>
+  	 
+  2. owners.txt
+  	 - contains the list of project owners
+  	 - <first_name>, <last_name>, <owner_id (id)>, <role>, <email>, <company_id>
+  	 
+  3. projects.txt
+  	 - list of available projects
+  	 - <title>, <project_id (id)>, <brief_description>, <owner_id>, <skills_rank>
+  	 
+  4. students.txt
+     - list of students
+     - <student_no (id)>, <skills>
+     
+  5. student_info.txt
+     - list of student information
+     - <student_no (id)> <skills> <personality_type> <student_1> <student_2>
+     
+  6. preferences.txt
+     - students preferences
+     - <student_no>
+       <project preferences>
+       
+Interfaces to implement:
+  1. File
+     - read
+     - write
+  2. MenuOption
+  	 -  
+  	        
+Classes to implement:
+  1. company
+     	# variables
+     	- String company_id
+     	- String company_name 
+     	- String ABN_no
+     	- String company_URL
+     	- String address
+     	
+     	# methods
+     	- GETS
+     	- SETS
+     	
+  2. owner
+		# variables
+     	- String first_name 
+     	- String last_name
+     	- String owner_id 
+     	- String role 
+     	- String email
+     	- String company_id
+     	
+     	# methods
+     	- GETS
+     	- SETS
+     	
+  3. project
+  		# variables
+     	- String title 
+     	- String project_id 
+     	- String description 
+     	- String owner_id 
+		- map
+     	
+     	# methods
+     	- GETS
+     	- SETS
+     	
+  4. student 
+  		# variables
+     	- String student_id
+     	- int p_grade
+     	- int n_grade
+     	- int a_grade
+     	- int w_grade
+     	- char personality
+     	- map of int {1: "Pr1",...}
+     	
+     	# methods
+     	- GETS
+     	- SETS
+     	
+  6. system 
+  		# variables
+  		- HashMap companies
+  		- HashMap owners
+  		- HashMap projects
+  		- HashMap students
+  		
+  		- main method
+  			# Load data from text files into HashMaps
+  			
+  			# 
+  	
+  7. companyFile implements File
+  8. ownerFile implements File
+  9. projectFile implements File
+  10. studentFile implements File
+  11. studentInfoFile implements File
+  12. preferenceFile implements File
+  
+     	
+		

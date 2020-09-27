@@ -1,0 +1,14 @@
+ian, guinto, own1, scientist, ian@gmail.com, c1
+ton, guinto, own2, software, asd, c10
+asd, asd, own3, saasd, adsasd, c1
+asda, asd, own4, asd, asd, c3
+sone, taheti, OWN5, lecturer, asd@asd.com, C1
+John, Baker, OWN6, Tutor, johnbaker@gmail.com, C1
+Mr, Potato, OWN7, Potato Couch, mrpotato@gmail.com, C3
+Ms, Potato, OWN8, Potato Couch, mspotato@gmail.com, C2
+LeBron, James, OWN9, Small Forward, LBJ@NBA.com, C1
+James, Harden, OWN10, Shooting Guard, jh@adidas.com, C2
+Russel, Westbrook, OWN11, Point Guard, rw@jordan.com, C10
+Kobe, Bryant, OWN14, Shooting Guard, kobe@nike.com, C1
+Anthony, Davis, OWN30, Center, ad@nike.com, C8
+Steph, Curry, OWN31, Point guard, steph@ua.com, C1
